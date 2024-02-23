@@ -6,7 +6,11 @@ function Character({ character }) {
       {character?.name && (
         <>
           <h3>{character.name}</h3>
-          <img className="img-fluid rounded-pill" src={character.image} alt={character.name} />
+          <img
+            className="img-fluid rounded-pill"
+            src={character.image}
+            alt={character.name}
+          />
           <p>{character.origin.name}</p>
         </>
       )}
